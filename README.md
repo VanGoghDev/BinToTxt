@@ -11,3 +11,5 @@ All you need is to initialize constructor with filePaths of input and output fil
         super(fileIn, fileOut);
     }
 ```
+
+As a result, you`ll have a file with 0 1 sequence.
