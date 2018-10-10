@@ -1,5 +1,5 @@
 # BinToTxt
-Programm converts strange symbols of binary file into 0 and 1 of txt file
+Programm converts strange symbols of binary file into 0 and 1 of txt file :astonished:
 
 All you need is to initialize constructor with filePaths of input and output files. (Input.bin, Output.txt)
 ```Java
