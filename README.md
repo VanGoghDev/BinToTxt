@@ -13,3 +13,5 @@ All you need is to initialize constructor with filePaths of input and output fil
 ```
 
 As a result, you`ll have a file with 0 1 sequence.
+
+Need to improve programm. I want to find an element by key
