@@ -1,4 +1,4 @@
-package ru.firsov.kirill;
+package ru.firsov.kirill.base;
 
 import java.io.*;
 

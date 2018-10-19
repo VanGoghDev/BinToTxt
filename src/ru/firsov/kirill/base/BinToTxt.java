@@ -1,4 +1,4 @@
-package ru.firsov.kirill;
+package ru.firsov.kirill.base;
 
 import java.io.File;
 
@@ -15,7 +15,7 @@ public class BinToTxt extends BaseBinToTxt{
     }
 
     @Override
-    protected void read() {
+    public void read() {
         super.read();
         aString = new StringBuffer(aByte.length);
         for (int i = 0; i < aByte.length; i++) {
@@ -23,7 +23,7 @@ public class BinToTxt extends BaseBinToTxt{
         }
     }
 
-    void writeTxt() {
+    public void writeTxt() {
         super.writeTxt(aString);
     }
 }
