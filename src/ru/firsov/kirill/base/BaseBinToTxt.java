@@ -4,10 +4,14 @@ import java.io.*;
 
 public class BaseBinToTxt {
 
-    private File fileIn;
-    private File fileOut;
+    protected File fileIn;
+    protected File fileOut;
 
     byte[] aByte; //an array where data from file stored
+
+    public BaseBinToTxt(File fileIn) {
+        this.fileIn = fileIn;
+    }
 
     /**
      * @param fileIn file to read
